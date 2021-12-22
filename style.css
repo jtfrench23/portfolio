@@ -10,14 +10,52 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 20px;
 }
-.navLinks {
-    width: 400px;
-    text-decoration: none;
+h1{
+    margin-left: 20px;
+}
+.white{
+    color: white;
+}
+#navLinks {
+    /* width: 400px; */
     display: flex;
-    gap: 20px;
+    gap: 10px;
+    margin-right: 20px;
+}
+#navLinks a{
+    text-decoration: none;
+    color: white;
 }
 img{
     width: 20px;
+}
+#mainContent{
+    width: 100vw;
+    height: 900px;
+    background-image: url("assets/pexels-pixabay-73873\ copy.jpg");
+    padding: 40px 0px;
+}
+#aboutMeSection {
+    width: 75%;
+    margin: 0px auto;
+    padding: 20px;
+    background-color: darkgrey;
+    text-align: center;
+    color: white;
+    font-size: 2.0em;
+}
+.parallax1 {
+    /* The image used */
+    background-image: url("assets/IMG_0009.jpeg");
+    /* Set a specific height */
+    min-height: 300px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.translucentBackground{
+    background-color: rgba(169, 169, 169, 0.411);
 }
