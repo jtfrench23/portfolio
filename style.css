@@ -59,3 +59,12 @@ img{
 .translucentBackground{
     background-color: rgba(169, 169, 169, 0.411);
 }
+#technology{
+    width: 75%;
+    margin: 40px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
